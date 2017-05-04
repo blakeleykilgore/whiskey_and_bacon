@@ -12,17 +12,18 @@ header {
 }
 header video {
     z-index: -10;
-	width: 100vw;
+    height: 100vh;
+    margin-left: -75%;
 }
 h1 {
     position: absolute;
     color: white;
-    margin-top: 10%;
+    margin-top: 35%;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
-    font-size: 10vw;
+    font-size: 20vw;
 }
 .title-whiskey {
     display: block;
