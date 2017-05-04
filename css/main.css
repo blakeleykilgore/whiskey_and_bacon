@@ -6,13 +6,16 @@
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section {
 	display:block;
 }
-
 header {
 	height: 100vh;
 	overflow: hidden;
 }
-
 header video {
     z-index: -10;
 	width: 100vw;
+}
+h1 {
+    position: absolute;
+    color: white;
+    margin-top: 10%;
 }
